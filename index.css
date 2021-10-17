@@ -1,0 +1,48 @@
+#clockContainer{
+    position: relative;
+    /* above statement is used to make the hands responsive */
+    margin: auto;
+    /* above statement is used to bring the entiore thing to the centre */
+    
+    height: 40vw;
+    /* vw is the view port width */
+    width: 40vw;
+
+    background: url(clock.png) no-repeat;
+    /* no-repeat is used so that we only get 1 clock  */
+    background-size: 100%;
+}
+
+/* to give some properties to the folllowing 3 ids */
+#hour, #minute, #second{
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.5%;
+    height: 18%;
+    top: 32%;
+    left: 49.15%;
+    background: black;
+}
+
+#minute{
+    width: 1.5%;
+    height: 23%;
+    top: 27%;
+    left: 49.05%;
+    opacity: 0.8;
+    background: black;
+}
+
+#second{
+    width: 1%;
+    height: 32%;
+    top: 18%;
+    left: 49.37%;
+    opacity: 0.8;
+    background: red;
+}
